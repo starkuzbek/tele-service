@@ -1,0 +1,536 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    height: 50px;
+    align-items: center;
+    margin-top: 20px;
+}
+nav ul{
+    display: flex;
+    margin-left: 200px;
+}
+nav ul li{
+    margin-left: 20px;
+    padding-left: -6px;
+    border-right: 00.2px solid;
+    height: 30px;
+    border-color: gray;
+    padding-top: 5px;
+}
+nav ul li:hover{
+    text-decoration: solid;
+}
+nav ul li a{
+    margin-right: 13px;
+    text-decoration: none;
+    color: #1983C3;
+    font-size: 15px;
+}
+nav ul li a:hover{
+    text-decoration: solid;
+}
+hr{
+    width: 72%;
+    margin-left: 200px;
+}
+
+    /* <!-- Manzil va aloqa uchun --> */
+.manzil{
+    margin-left: 200px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+.manzil .man1 h1{
+    font-size: 15px;
+    color: gray;
+    font-weight: 300;
+    margin-left: 20px;
+    padding-left: 10px;
+    border-left: 1px solid gray;
+}
+.manzil .logo{
+    cursor: pointer;
+}
+.manzil .aloqa{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+.manzil .aloqa h1{
+    font-size: 17px;
+    font-weight: 300;
+    margin-left: 30px;
+    color: gray;
+    align-items: center;
+    cursor: pointer;
+}
+.manzil .aloqa h1 ion-icon{
+    color: black;
+}
+.manzil .aloqa h1 a{
+    color: #1983C3;
+    cursor: pointer;
+}
+.manzil .aloqa img{
+    width: 25px;
+    margin-left: 10px;
+    margin-top: -20px;
+}
+.manzil .aloqa h2{
+    font-size: 17px;
+    font-weight: 300;
+    margin-left: 20px;
+    color: gray;
+    cursor: pointer;
+    align-items: center;
+    border-left: 1px solid;
+    padding-left: 10px;
+}
+.manzil .aloqa h2 ion-icon{
+    color: black;
+}
+
+/* Nazvbar 2 */
+.navbar2{
+    margin-top: 30px;
+    height: 60px;
+    background-color: #08639c;
+    align-items: center;
+    width: 72%;
+    margin-left: 200px;
+    text-align: center;
+}
+.navbar2 ul{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.navbar2 ul li{
+    font-size: 13px;
+    margin-left: 10px;
+    text-align: center;
+    padding-top: 20px;
+}
+.navbar2 ul li a{
+    color: white;
+    text-decoration: none;
+}
+.main-photo img{
+    width: 72%;
+    margin-left: 200px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+.kategory{
+    /* display: flex; */
+    flex-direction: column;
+}
+.kategory .block1 .part1 img{
+    width: 120px;
+    /* padding-top: 20px; */
+    margin-top: -100px;
+}
+.kategory .block1{
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+    margin-left: 200px;
+}
+.kategory .block1 .part1{
+    align-items: center;
+    width: 325px;
+    /* margin-left: 30px; */
+    height: 170px;
+ background-image: linear-gradient(
+  5deg,
+  hsl(0deg 0% 55%) 0%,
+  hsl(0deg 0% 58%) 5%,
+  hsl(0deg 0% 61%) 10%,
+  hsl(0deg 0% 64%) 14%,
+  hsl(0deg 0% 66%) 19%,
+  hsl(0deg 0% 69%) 24%,
+  hsl(0deg 0% 71%) 29%,
+  hsl(0deg 0% 73%) 33%,
+  hsl(0deg 0% 75%) 38%,
+  hsl(0deg 0% 78%) 43%,
+  hsl(0deg 0% 80%) 48%,
+  hsl(0deg 0% 82%) 52%,
+  hsl(0deg 0% 84%) 57%,
+  hsl(0deg 0% 86%) 62%,
+  hsl(0deg 0% 88%) 67%,
+  hsl(0deg 0% 90%) 71%,
+  hsl(0deg 0% 91%) 76%,
+  hsl(0deg 0% 93%) 81%,
+  hsl(0deg 0% 95%) 86%,
+  hsl(0deg 0% 97%) 90%,
+  hsl(0deg 0% 98%) 95%,
+  hsl(0deg 0% 100%) 100%
+);
+}
+.tv-div{
+    background: url(img/tv.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    width: 200px;
+    height: 100px;
+    margin-top: -100px;
+}
+.kategory .block1 .part1 h1{
+    font-size: 16px;
+    color: #1983C3;
+    margin-top: 70px;
+    margin-left: 150px;
+    font-weight: 300;
+    line-height: 22px;
+    cursor: pointer;
+    /* background: rgb(179,178,176); */
+    /* background: linear-gradient(0deg, rgba(179,178,176,0.7259278711484594) 100%, rgba(255,255,255,0.27494747899159666) 100%); */
+    text-align: center;
+    position: relative;
+    z-index: 999;
+}
+.tv-img{
+    width: 170px;
+    margin-bottom: -70px;
+}
+.lap-img{
+    padding-top: 20px;
+}
+.tv-text{
+    width: 170px;
+    margin-left: 20px;
+}
+.sov-text{
+    width: 200px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.wash-text{
+    width: 210px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.kof-text{
+    width: 200px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.clean-text{
+    width: 210px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.lap-text{
+    width: 180px;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+.text-text{
+    margin-top: 30px;
+    margin-left: 200px;
+}
+.text-text .part1{
+    display: flex;
+
+}
+.text-text img{
+    width: 30%;
+    height: 140%;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.text-text p{
+    margin-top: 50px;
+    font-size: 30px;
+}
+.text-text .part1 h1{
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 28px;
+    margin-top: 15px;
+}
+.contact-text{
+    width: 72%;
+    height: 150px;
+    background-color: #EAF4C8;
+    margin-top: 20px;
+    margin-left: 200px;
+    text-align: center;
+}
+.contact-text h1{
+    padding-top: 20px;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 28px;
+}
+.contact-text h2{
+    padding-top: 20px;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 28px;
+}
+.contact-text h2 a{
+    text-decoration: none;
+}
+.tamir-text{
+    margin-top: 40px;
+    margin-left: 200px;
+    display: flex;
+}
+.tamir-text .part1 .text-img img{
+    height: 50%;
+}
+.tamir-text .part1 .text-img{
+    display: flex;
+    margin-top: 20px;
+}
+.tamir-text .part1 h1{
+    font-size: 25px;
+}
+.tamir-text .part1 .text-img h2{
+    font-size: 15px;
+    font-weight: 300;
+    margin-left: 30px;
+    line-height: 28px;
+}
+.tamir-text .part1 h3{
+    font-size: 15px;
+    font-weight: 300;
+    margin-left: 10px;
+    line-height: 28px;
+}
+.tamir-text .part2{
+    margin-left: 25px;
+}
+.tamir-text .part2 img{
+    width: 73%;
+}
+.tamir-text .part2 h1{
+    font-size: 20px;
+    margin-left: 20px;
+    margin-left: -0px;
+    margin-top: 20px;
+}
+.tamir-text .part2 h2{
+    font-size: 15px;
+    font-weight: 300;
+    margin-left: 30px;
+    line-height: 28px;
+    margin-left: -0px;
+    margin-top: 20px;
+}
+
+.icon-kat{
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.icon-kat .block1{
+    display: flex;
+    align-items: center;
+}
+.icon-kat .block1 .part1{
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+}
+.icon-kat .block1 .part1 h1{
+    line-height: 28px;
+    font-weight: 300;
+    margin-left: 15px;
+    font-size: 15px;
+}
+.holder {
+    position: relative;
+    width: 72%;
+    height: 60px;
+    top: 25px;
+}
+.tinyLine {
+    position: absolute;
+    margin-left: 200px;
+    /* Cuts off the bottom half of the pattern */
+    height: 30px;
+    /* For better cross browser consistency, make it larger with width.  */
+    width: 1000%;
+    /* And then scale it back down with scale, recentering with translateX. */
+    transform: translateX(-45%) scale(0.1);
+}
+
+.tinyLine1 {
+    background: linear-gradient(45deg, transparent, transparent 49%, rgb(146, 142, 142) 49%, transparent 51%);
+}
+.tinyLine2 {
+    background: linear-gradient(-45deg, transparent, transparent 49%, rgb(132, 131, 131) 49%, transparent 51%);
+}
+.tinyLine {
+    /* Must be after background definition. */
+    background-size: 40px 40px;
+}
+.text1 h1{
+    font-size: 24px;
+    margin-left: 200px;
+    margin-top: 30px;
+}
+.stik-text{
+    display: flex;
+    margin-left: 200px;
+}
+.stik-text .part1{
+    display: flex;
+    align-items: center;
+}
+.stik-text .part1 h1{
+    line-height: 28px;
+    font-weight: 300;
+    font-size: 15px;
+    margin-left: 10px;
+}
+.stik-text .part1 ion-icon{
+    font-size: 20px;
+    color: #1983C3;
+}
+.sti-text{
+    padding-top: 20px;
+}
+.stik-text .block2{
+    margin-left: 100px;
+}
+.ish-sxema{
+    margin-top: 50px;
+    margin-left: 200px;
+    width: 73%;
+    height: 50%;
+    background-color: #F4F4F4;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.ish-sxema a{
+    text-decoration: none;
+}
+.ish-sxema .h1 h1{
+    font-size: 27px;
+    font-weight: 300;
+}
+.ish-sxema .block{
+    display: flex;
+}
+.ish-sxema .block1 .part1 h1{
+    line-height: 28px;
+    font-weight: 300;
+    font-size: 15px;
+}
+.par1{
+    margin-top: 10px;
+}
+.text2 h1{
+    line-height: 28px;
+    font-weight: 300;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 20px;
+}
+.text2 h2{
+    text-align: center;
+    margin-top: 45px;
+    font-size: 30px;
+    font-weight: 400;
+}
+.brend-icons{
+    margin-left: 140px;
+    align-items: center;
+}
+.brend-icons .part1{
+    margin-top: 20px;
+    align-items: center;
+}
+.brend-icons .part1 img{
+    margin-left: 130px;
+    cursor: pointer;
+}
+.lg{
+    margin-bottom: -20px;
+}
+.brend-icons .part2 img{
+    margin-left: 100px;
+    cursor: pointer;
+}
+.text3 h1{
+    margin-top: 85px;
+    font-size: 30px;
+    font-weight: 400;
+    margin-left: 200px;
+}
+.foyda{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 200px;
+}
+.foyda .part1 img{
+    width: 80%;
+    cursor: pointer;
+}
+.foyda .part1 h1{
+    font-size: 17px;
+    margin-top: 10px;
+    border-bottom: 1px solid gray;
+    width: 300px;
+    line-height: 28px;
+    cursor: pointer;
+}
+.foyda .part1 h2{
+    line-height: 28px;
+    font-weight: 300;
+    font-size: 15px;
+}
+footer{
+    padding-left: 200px;
+    background-color: #01579B;
+    display: flex;
+}
+footer .part1 strong{
+    font-size: 20px;
+    color: white;
+    line-height: 28px;
+}
+footer .part1 p{
+    color: white;
+    line-height: 35px;
+    cursor: pointer;
+}
+footer .part1 p ion-icon{
+    font-size: 13px;
+}
+.icon-bar{
+    margin-top: 20px;
+}
+.icon-bar ion-icon{
+    font-size: 30px;
+    margin-left: 10px;
+    color: white;
+    cursor: pointer;
+}
+footer #part1{
+    margin-left: 70px;
+    margin-top: 30px;
+}
+footer #part1 :nth-child(2){
+    border-bottom: 1px solid;
+}
+.fot-text{
+    background-color: #01579B;
+    font-size: 8px;
+    color: white;
+}
+.fot-text h1{
+    font-weight: 300;
+    margin-left: 200px;
+    padding-top: 50px;
+}
